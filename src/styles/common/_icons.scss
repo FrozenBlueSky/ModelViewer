@@ -1,0 +1,13 @@
+%icon {
+    font-family: "Font Awesome 6 Free";
+    content: "\f093";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.icon-upload:after {
+    @extend %icon;
+    content: "\f093";
+}

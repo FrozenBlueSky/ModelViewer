@@ -1,0 +1,17 @@
+
+h1 {
+    font-weight: 400;
+}
+
+.upload {
+    float: right;
+}
+
+.upload:before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f093";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
