@@ -1,6 +1,8 @@
 # ModelViewer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+Store 3d Models on python server
+View it in three.js
+inside of an Angular project
 
 ## Development server
 
