@@ -1,3 +1,5 @@
-<app-header></app-header>
+<app-header (onShowUpload)="this.showUploadWindow = true"></app-header>
+
+<app-upload-window *ngIf="this.showUploadWindow" (onHideOverlay)="this.showUploadWindow = false"></app-upload-window>
 
 <router-outlet></router-outlet>
